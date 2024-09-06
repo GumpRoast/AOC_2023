@@ -8,6 +8,7 @@ with open(file_path, 'r') as f:
         for item in line:
             if item.isnumeric():
                 store = item
-            print(store)
+                break
+        
+        print(store)
 
-            
