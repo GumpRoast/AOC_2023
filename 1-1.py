@@ -1,7 +1,7 @@
 from pathlib import Path
 
 path = str(Path(__file__).parent)
-file_path = path + '/1_input.txt'
+file_path = path + '/1_ex.txt'
 
 nums = []
 
@@ -26,6 +26,5 @@ with open(file_path, 'r') as f:
 total = 0
 for num in nums:
     total += int(num)
-
 print(total)
   
